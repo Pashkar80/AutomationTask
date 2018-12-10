@@ -1,0 +1,5 @@
+.setting/
+test-output/
+.classpath
+.project
+pom
