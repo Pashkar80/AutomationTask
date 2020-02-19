@@ -31,8 +31,6 @@ public class LetterTest {
 	public void completeForm()  {
 		CommonSteps steps= new CommonSteps(driver);
 		String text=steps.completeForm();
-		System.out.println("This is get from site->"+ text);
-		System.out.println("This is expect  ->" + letter.getContent());
 		Assert.assertEquals(text,letter.getContent());
 
 	}
